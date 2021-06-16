@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GithubApp</string>
+    <string name="app_name">Github App</string>
     <string name="search_user">Search User</string>
     <string name="btn_search">Search</string>
     <string name="text_find_user">Find User</string>
