@@ -61,7 +61,9 @@ class MainActivity : AppCompatActivity() {
                             binding.llMainUserNotFound.root.visibility = View.GONE
                             binding.rvUser.visibility = View.VISIBLE
                             val adapter = UserAdapter()
-                            data.data?.let { adapter.setData(it) }
+                            data.data?.let { userData ->
+                                adapter.setData(userData)
+                            }
                             val layoutManager = LinearLayoutManager(this)
                             layoutManager.orientation = LinearLayoutManager.VERTICAL
                             binding.rvUser.layoutManager = layoutManager
