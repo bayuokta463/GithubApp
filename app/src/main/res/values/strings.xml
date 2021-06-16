@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GithubApp</string>
+    <string name="search_user">Search User</string>
+    <string name="btn_search">Search</string>
+    <string name="text_find_user">Find User</string>
+    <string name="text_error_connection">Check your internet connection</string>
+    <string name="text_user_not_found">User not found</string>
+    <string name="text_error_username_empty">Username cannot be empty</string>
+</resources>
